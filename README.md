@@ -175,7 +175,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### On Kaggle (Recommended)
+### On Kaggle (Recommended) ⭐
 
 Simply open the [Kaggle notebook](https://www.kaggle.com/code/dandrandandran2093/plotly-first-steps) and run the cells. All dependencies and datasets are pre-configured!
 
@@ -245,7 +245,7 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 - **Udemy**: Data Visualization by DATAI TEAM
 
 ### Tutorial
-- Kaggle Notebook: [Plotly Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/plotly-tutorial-for-beginners)
+- Kaggle Notebook: Plotly Tutorial for Beginners
 
 ### Documentation
 - [Plotly Official Documentation](https://plotly.com/python/)
@@ -253,7 +253,7 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 - [NumPy Documentation](https://numpy.org/doc/)
 
-### Related Projects
+### Related Project
 - 📊 [Seaborn Data Visualization Tutorial](https://github.com/sekertutku/SeaBorn-First-Steps) | [Kaggle](https://www.kaggle.com/code/dandrandandran2093/seaborn-first-steps)
 
 ## Acknowledgments
