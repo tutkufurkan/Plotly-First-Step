@@ -146,6 +146,13 @@ Or run individual sections in a Jupyter notebook environment:
 jupyter notebook plotly-first-steps.ipynb
 ```
 
+## 🎮 Interactive Demo
+
+Experience the full interactive visualizations on Kaggle:  
+👉 [Try Interactive Plotly Tutorial](https://www.kaggle.com/code/SENIN-USERNAME/plotly-first-steps)
+
+*Note: Plotly's interactive features (hover, zoom, pan) work best in Kaggle's environment.*
+
 ## Key Features
 
 ### Interactive Capabilities
