@@ -4,10 +4,17 @@
 [![Plotly](https://img.shields.io/badge/Plotly-Latest-blue.svg)](https://plotly.com/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/sekertutku/Plotly-First-Step)
 
 ## Overview
 
 This repository provides a comprehensive tutorial on interactive data visualization using the Plotly library in Python. The project demonstrates 12 distinct visualization techniques through practical examples using the World University Rankings dataset, showcasing Plotly's powerful interactive capabilities for exploring complex relationships in educational data.
+
+## 🎮 Interactive Demo
+
+**👉 [Run the Interactive Notebook on Kaggle](https://www.kaggle.com/code/dandrandandran2093/plotly-first-steps)**
+
+*For the best experience with interactive Plotly visualizations and pre-configured datasets, use the Kaggle notebook above. All visualizations are ready to run with hover, zoom, and pan capabilities!*
 
 ## Table of Contents
 
@@ -27,7 +34,7 @@ Plotly is a powerful Python library for creating interactive, publication-qualit
 
 ## Dataset
 
-The analysis utilizes the **World University Rankings** dataset (timesData.csv) which includes:
+The analysis utilizes the **World University Rankings** dataset which includes:
 
 - **World Rank**: Global ranking of universities
 - **Teaching**: Teaching quality score
@@ -39,6 +46,13 @@ The analysis utilizes the **World University Rankings** dataset (timesData.csv) 
 - **Number of Students**: Student enrollment figures
 - **Student-Staff Ratio**: Educational resource allocation metric
 - **Year**: Data collection year (2011-2016)
+
+Additional supplementary datasets:
+- CWUR World University Rankings
+- Shanghai Rankings
+- Educational attainment data
+- Education expenditure statistics
+- School and country mapping tables
 
 ## Visualization Types
 
@@ -106,8 +120,25 @@ The tutorial demonstrates 12 distinct interactive visualization techniques:
 - Simultaneous comparison of multiple metrics
 - Research, citations, income, and total score analysis
 
+## Requirements
+
+```
+numpy>=1.21.0
+pandas>=1.3.0
+plotly>=5.0.0
+jupyter>=1.0.0
+wordcloud>=1.8.0
+```
 
 ## Installation
+
+### Option 1: Use Kaggle (Recommended) ⭐
+
+The easiest way to explore this tutorial is on Kaggle where everything is pre-configured:
+
+👉 **[Open Interactive Notebook on Kaggle](https://www.kaggle.com/code/dandrandandran2093/plotly-first-steps)**
+
+### Option 2: Run Locally
 
 1. Clone the repository:
 ```bash
@@ -120,9 +151,35 @@ cd Plotly-First-Steps
 pip install -r requirements.txt
 ```
 
-3. Download the dataset and place it in the `input/` directory.
+3. **Datasets:**
+   
+   ✨ All datasets are included in the `input/` directory for reference:
+   ```
+   input/
+   ├── cwurData.csv
+   ├── education_expenditure_supplementary_data.csv
+   ├── educational_attainment_supplementary_data.csv
+   ├── school_and_country_table.csv
+   ├── shanghaiData.csv
+   └── timesData.csv
+   ```
+   
+   **Note:** The code uses Kaggle-specific paths (`/kaggle/input/...`). To run locally, update the dataset paths in the code from:
+   ```python
+   df = pd.read_csv(r"/kaggle/input/dataset-name/file.csv")
+   ```
+   to:
+   ```python
+   df = pd.read_csv("input/file.csv")
+   ```
 
 ## Usage
+
+### On Kaggle (Recommended)
+
+Simply open the [Kaggle notebook](https://www.kaggle.com/code/dandrandandran2093/plotly-first-steps) and run the cells. All dependencies and datasets are pre-configured!
+
+### Locally
 
 Execute the main script to generate all visualizations:
 
@@ -135,13 +192,6 @@ Or run individual sections in a Jupyter notebook environment:
 ```bash
 jupyter notebook plotly-first-steps.ipynb
 ```
-
-## 🎮 Interactive Demo
-
-Experience the full interactive visualizations on Kaggle:  
-👉 [Try Interactive Plotly Tutorial](https://www.kaggle.com/code/dandrandandran2093/plotly-first-steps)
-
-*Note: Plotly's interactive features (hover, zoom, pan) work best in Kaggle's environment.*
 
 ## Key Features
 
@@ -178,21 +228,53 @@ The analysis reveals important patterns in global university rankings:
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss proposed modifications.
 
+### How to Contribute
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
 ## License
 
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
 ## References
 
-- Udemy Course: Data Visualization by DATAI TEAM
+### Course
+- **Udemy**: Data Visualization by DATAI TEAM
+
+### Tutorial
 - Kaggle Notebook: [Plotly Tutorial for Beginners](https://www.kaggle.com/code/kanncaa1/plotly-tutorial-for-beginners)
+
+### Documentation
 - [Plotly Official Documentation](https://plotly.com/python/)
 - [Plotly Graph Objects](https://plotly.com/python/graph-objects/)
+- [Pandas Documentation](https://pandas.pydata.org/docs/)
+- [NumPy Documentation](https://numpy.org/doc/)
+
+### Related Projects
+- 📊 [Seaborn Data Visualization Tutorial](https://github.com/sekertutku/SeaBorn-First-Steps) | [Kaggle](https://www.kaggle.com/code/dandrandandran2093/seaborn-first-steps)
 
 ## Acknowledgments
 
-Special thanks to the Times Higher Education World University Rankings for providing the dataset and to the open-source community for making these visualization tools accessible.
+Special thanks to:
+- DATAI TEAM for the comprehensive data visualization course
+- Times Higher Education for the World University Rankings dataset
+- Plotly team for creating an amazing visualization library
+- The open-source community for making these tools accessible
 
 ---
 
-**Note**: This tutorial is intended for educational purposes. The interactive features of Plotly are best experienced in Jupyter notebooks or web-based environments.
+**Note**: This tutorial is intended for educational purposes. The interactive features of Plotly are best experienced in Jupyter notebooks or web-based environments like Kaggle.
+
+## 📞 Connect
+
+If you have questions or suggestions:
+- Open an issue in this repository
+- Connect on [Kaggle](https://www.kaggle.com/dandrandandran2093)
+- Star this repository if you found it helpful!
+
+---
+
+**Happy Visualizing! 📊✨**
