@@ -106,16 +106,6 @@ The tutorial demonstrates 12 distinct interactive visualization techniques:
 - Simultaneous comparison of multiple metrics
 - Research, citations, income, and total score analysis
 
-## Requirements
-
-```
-python >= 3.x
-numpy>=1.21.0
-pandas>=1.3.0
-plotly>=5.0.0
-matplotlib>=3.4.0
-wordcloud>=1.8.0
-```
 
 ## Installation
 
