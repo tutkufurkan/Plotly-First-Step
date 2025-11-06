@@ -254,7 +254,7 @@ This project is licensed under the Apache License 2.0 - see the LICENSE file for
 - [NumPy Documentation](https://numpy.org/doc/)
 
 ### Related Project
-- 📊 [Seaborn Data Visualization Tutorial](https://github.com/sekertutku/SeaBorn-First-Steps) | [Kaggle](https://www.kaggle.com/code/dandrandandran2093/seaborn-first-steps)
+- 📊 **Seaborn Data Visualization Tutorial** - [[Kaggle]](https://www.kaggle.com/code/dandrandandran2093/seaborn-first-steps) [[GitHub]](https://github.com/sekertutku/SeaBorn-First-Steps)
 
 ## Acknowledgments
 
