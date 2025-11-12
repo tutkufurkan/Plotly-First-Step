@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-Latest-blue.svg)](https://plotly.com/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Notebook-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/dandrandandran2093/plotly-first-steps)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/sekertutku/Plotly-First-Step)
 
 ## Overview
